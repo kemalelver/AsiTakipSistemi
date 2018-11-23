@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Hastalar"
+    targetNamespace="http://tempuri.org/Hastalar.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Hastalar.xsd"
+    xmlns:mstns="http://tempuri.org/Hastalar.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="HastalarSchema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hasta" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TC" type="xs:double" />
+              <xs:element name="ad" type="xs:string" />
+              <xs:element name="soyad" type="xs:string" />
+              <xs:element name="dogum_Tarihi" type="xs:date" />
+              <xs:element name="oldugu_Asilar" type="xs:string" />
+
+              
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

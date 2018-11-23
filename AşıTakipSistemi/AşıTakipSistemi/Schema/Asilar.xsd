@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema1"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="AsilarSchema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Asi" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:integer" />
+              <xs:element name="asi_Adi" type="xs:string" />
+              <xs:element name="doz1" type="xs:integer" />
+              <xs:element name="doz2" type="xs:integer" />
+              <xs:element name="doz3" type="xs:integer" />
+              <xs:element name="doz4" type="xs:integer" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
