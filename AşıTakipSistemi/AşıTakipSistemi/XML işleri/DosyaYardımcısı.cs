@@ -16,9 +16,9 @@ namespace AşıTakipSistemi.XML_işleri
     {
         private static AşıDBContext AşıVeriTabanı= new AşıDBContext();
         private static string MainDirectoryPath = System.AppDomain.CurrentDomain.BaseDirectory;
-        private static string ÇalışanPath = Path.Combine(MainDirectoryPath, "Çalışanlar.xml");
-        private static string AşıPath = Path.Combine(MainDirectoryPath, "Aşılar.xml");
-        private static string HastaPath = Path.Combine(MainDirectoryPath, "Hastalar.xml");
+        private static string ÇalışanPath = Path.Combine(MainDirectoryPath, @"..\..\..\Çalışanlar.xml");
+        private static string AşıPath = Path.Combine(MainDirectoryPath, @"..\..\..\Aşılar.xml");
+        private static string HastaPath = Path.Combine(MainDirectoryPath, @"..\..\..\Hastalar.xml");
 
         public static void DosyaYarat()
         {
